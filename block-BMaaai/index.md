@@ -1,6 +1,6 @@
 writeCode
 
-#### Import data from json file to mongodb database using `mongoimport`
+#### Import data from json file to mongodb database using `mongoimport` ✅
 
 ```
 mongoimport --host <host_name> --username <user_name> --password <password> --db
@@ -17,7 +17,7 @@ host, username and password are optional fields.
 - --file: file location
 - --jsonArray: Passed an array of json objects
 
-## BLOCK-writeCode
+## BLOCK-writeCode ✅
 
 Go to `https://www.json-generator.com/`
 
@@ -43,7 +43,7 @@ Go to `https://www.json-generator.com/`
 - download it on `Desktop`
 - import it into mongodb `test` database into a collection named `users`
 
-#### Export data from mongodb server to local system in json format using
+#### Export data from mongodb server to local system in json format using ✅
 
 `mongoexport`command.
 
@@ -51,17 +51,17 @@ Go to `https://www.json-generator.com/`
 mongoexport --db state --collection cities --out ~/Desktop/states/city.json --jsonArray
 ```
 
-## BLOCK-writeCode
+## BLOCK-writeCode ✅
 
 Export `users` collection from `test` database onto `Desktop` in a file named `exported.json`.
 
-#### Import from csv file
+#### Import from csv file ✅
 
 ```
 mongoimport -d DB_NAME -c COLLECTION_NAME --type csv --file elections.csv(file location) --headerline(including header)
 ```
 
-## BLOCK-writeCode
+## BLOCK-writeCode ❌
 
 Generate mock csv data from `https://www.convertcsv.com/generate-test-data.htm`
 
